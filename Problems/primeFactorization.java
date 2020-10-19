@@ -15,7 +15,6 @@ public class primeFactorization {
                 System.out.print(i + " ");
             } else {
                 i++;
-                // break;
             }
         }
 
