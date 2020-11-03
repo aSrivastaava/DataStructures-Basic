@@ -33,6 +33,8 @@ public class reverseArray {
             a[i] = scn.nextInt();
         }
 
+        scn.close();
+
         reverse(a);
         display(a);
     }
