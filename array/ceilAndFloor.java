@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class ceilAndFloor {
     public static void main(String[] args) {
-        // Scanner scn = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);
 
-        // int n = scn.nextInt();
-        // int[] a = new int[n];
+        int n = scn.nextInt();
+        int[] a = new int[n];
 
-        // for (int i = 0; i < a.length; i++) {
-        // a[i] = scn.nextInt();
-        // }
+        for (int i = 0; i < a.length; i++) {
+            a[i] = scn.nextInt();
+        }
 
-        // int d = scn.nextInt();
-        // scn.close();
+        int d = scn.nextInt();
+        scn.close();
 
-        int[] a = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
-        int d = 35;
+        // int[] a = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 };
+        // int d = 35;
 
         int l = 0;
         int h = a.length - 1;
